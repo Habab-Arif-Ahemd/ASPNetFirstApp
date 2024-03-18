@@ -1,0 +1,25 @@
+.card {
+    background-color: aliceblue;
+    border: 1px;
+    border-radius: 5px;
+    flex-direction: row;
+    padding: 10px;
+    gap: 10px;
+    margin: 10px;
+    align-items: center;
+
+
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    color: #3f51b5;
+
+
+}
+
+.fontStyle {
+    font-weight: bold;
+
+}

@@ -1,0 +1,30 @@
+<div class="card-container">
+    <div class="card">
+        <img class="icon" src="assets/Icons/speed-test.png" alt="Heart Rate Icon" />
+        <span class="fontStyle">Test Date : {{ LabResults?.testDate | date:'dd/MM/yyyy hh:mma'}}</span>
+    </div>
+    <div class="card">
+        <img class="icon" src="assets/Icons/flask.png" alt="Heart Rate Icon" />
+        <span class="fontStyle"> Test Name : {{ LabResults?.testName }} </span>
+    </div>
+    <div class="card">
+        <img class="icon" src="assets/Icons/result.png" alt="Heart Rate Icon" />
+        <span class="fontStyle">Test Results : {{ LabResults?.testResults }}</span>
+    </div>
+    <div class="card">
+        <img class="icon" src="assets/Icons/analysis.png" alt="Heart Rate Icon" />
+        <span class="fontStyle">Glucose : {{ LabResults?.glucose }}</span>
+    </div>
+    <div class="card">
+        <img class="icon" src="assets/Icons/bones.png" alt="Heart Rate Icon" />
+        <span class="fontStyle">Calcium : {{ LabResults?.calcium }}</span>
+    </div>
+    <div class="card">
+        <img class="icon" src="assets/Icons/weight-scale.png" alt="Heart Rate Icon" />
+        <span class="fontStyle">sodium : {{ LabResults?.sodium }}</span>
+    </div>
+    <div class="card">
+        <img class="icon" src="assets/Icons/height.png" alt="Heart Rate Icon" />
+        <span class="fontStyle">Potassium : {{ LabResults?.potassium }}</span>
+    </div>
+</div>
